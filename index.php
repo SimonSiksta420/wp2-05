@@ -27,9 +27,10 @@ $students = array(
 <H1> Závod </H1>
 
 <?php
-for ($i = $students; $i < 10 ; $i++) { 
-    $students;
-} ?>
+for ($i = $students; $i <= 10 ; $i++) { ?>
+    <?= $students ?>;
+<?php } 
 
+?>
 </body>
 </html>
