@@ -28,7 +28,7 @@ $students = array(
 
 <?php
 for ($i = $students; $i <= 10 ; $i++) { ?>
-    <?= $students ?>;
+    <?= $i?> . <?=$students[$i]?> <br>
 <?php } 
 
 ?>
