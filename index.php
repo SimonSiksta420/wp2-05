@@ -27,7 +27,7 @@ $students = array(
 <H1> Závod </H1>
 
 <?php
-for ($i = 1; $i < count($students) ; $i++) {?>
+for ($i = 1; $i <= count($students); $i++) {?>
  <?= $i?> . <?=$students[$i]?> <br>
 
 <?php }
